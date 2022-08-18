@@ -1,5 +1,3 @@
-# ![Vytser](https://img.alicdn.com/tfs/TB1TIzBd3vD8KJjy0FlXXagBFXa-282-96.png)
-
 ## Introduction
 
 A toolkit fit for data vis engineer based on G2. Vytser support React, Vue and AngularJS.
