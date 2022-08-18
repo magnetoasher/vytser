@@ -1,4 +1,4 @@
-import { ViserGraph } from '../../../packages/viser-graph/src/index';
+import { VytserGraph } from '../../../packages/vytser-graph/src/index';
 
 const data = {
   nodes: [{
@@ -17,7 +17,7 @@ const data = {
       target: '1'
     }]
 };
-new ViserGraph({
+new VytserGraph({
   data,
   graph: {
     container: 'mount',

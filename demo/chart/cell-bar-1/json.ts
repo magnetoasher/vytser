@@ -1,4 +1,4 @@
-import viser from '../../../packages/viser-cell/src/index';
+import vytser from '../../../packages/vytser-cell/src/index';
 
 const data = [
   { name: 'London', 月份: 'Jan.', 月均降雨量: 18.9 },
@@ -19,7 +19,7 @@ const data = [
   { name: 'Berlin', 月份: 'Aug.', 月均降雨量: 42.4 }
 ];
 
-viser({
+vytser({
   data: data,
   axis: true,
   tooltip: {

@@ -5,9 +5,9 @@ import 'zone.js/dist/zone';
 import list from './chart/index';
 
 import Vue from 'vue';
-import ViserVue from '../packages/viser-vue/src';
-import ViserCellVue from '../packages/viser-cell-vue/src';
-import ViserGraphVue from '../packages/viser-graph-vue/src/index';
+import VytserVue from '../packages/vytser-vue/src';
+import VytserCellVue from '../packages/vytser-cell-vue/src';
+import VytserGraphVue from '../packages/vytser-graph-vue/src/index';
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
@@ -52,7 +52,7 @@ function fetchData(state) {
       const AppModule = require(`./chart/${type}/${fileName}`).default;
       platformBrowserDynamic().bootstrapModule(AppModule).then((ref) => { ngRef = ref; });
     } else if (fileName === 'vue') {
-      Vue.use(ViserVue);
+      Vue.use(VytserVue);
       const App = require(`./chart/${type}/${fileName}.vue`).default;
       const container = document.createElement('div');
       document.getElementById('mount').appendChild(container);
@@ -65,7 +65,7 @@ function fetchData(state) {
         components: { App }
       });
     } else if (fileName === 'vueCell') {
-      Vue.use(ViserCellVue);
+      Vue.use(VytserCellVue);
       const App = require(`./chart/${type}/${fileName}.vue`).default;
       const container = document.createElement('div');
       document.getElementById('mount').appendChild(container);
@@ -78,7 +78,7 @@ function fetchData(state) {
         components: { App }
       });
     } else if (fileName === 'vueGraph') {
-      Vue.use(ViserGraphVue);
+      Vue.use(VytserGraphVue);
       const App = require(`./chart/${type}/${fileName}.vue`).default;
       const container = document.createElement('div');
       document.getElementById('mount').appendChild(container);

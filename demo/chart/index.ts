@@ -12,7 +12,7 @@ export default [
     case: ['json', 'react', 'vue', 'angular'],
   },
   {
-    type: 'viser-graph-1',
+    type: 'vytser-graph-1',
     case: ['json', 'react', 'vueGraph', 'angular'],
   },
   {

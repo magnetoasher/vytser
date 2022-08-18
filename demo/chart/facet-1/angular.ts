@@ -1,6 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ViserModule } from '../../../packages/viser-ng/src/index';
+import { VytserModule } from '../../../packages/vytser-ng/src/index';
 import { sourcedata } from './data';
 const DataSet = require('@antv/data-set');
 const { DataView } = DataSet;
@@ -64,7 +64,7 @@ class AppComponent {
   ],
   imports: [
     BrowserModule,
-    ViserModule
+    VytserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

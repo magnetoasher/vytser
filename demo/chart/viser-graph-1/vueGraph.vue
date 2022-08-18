@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import { GlobalG6 as G6 } from '../../../packages/viser-graph-vue/src/index';
+import { GlobalG6 as G6 } from '../../../packages/vytser-graph-vue/src/index';
 const data = {
   nodes: [{
     id: '0',

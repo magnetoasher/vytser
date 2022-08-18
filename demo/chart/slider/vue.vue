@@ -12,7 +12,7 @@
         <div id="slider">
             <v-plugin>
                 <v-slider
-                    container='viser-slider-1'
+                    container='vytser-slider-1'
                     width="auto"
                     :height="height"
                     :start="start"

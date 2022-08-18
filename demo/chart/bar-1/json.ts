@@ -1,4 +1,4 @@
-import viser from '../../../packages/viser/src/index';
+import vytser from '../../../packages/vytser/src/index';
 import { data, scale } from './data'
 const DataSet = require('@antv/data-set');
 
@@ -13,7 +13,7 @@ const dv = ds.createView()
     as: 'percent'
   });
 
-viser({
+vytser({
   data: dv.rows,
   scale: scale,
   axis: true,

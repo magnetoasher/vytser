@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Graph } from '../../../packages/viser-graph-react/src/index';
+import { Graph } from '../../../packages/vytser-graph-react/src/index';
 
 const data = {
   nodes: [{

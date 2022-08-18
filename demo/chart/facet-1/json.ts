@@ -1,4 +1,4 @@
-import viser from '../../../packages/viser/src/index';
+import vytser from '../../../packages/vytser/src/index';
 import { sourcedata } from './data';
 const DataSet = require('@antv/data-set');
 const { DataView } = DataSet;
@@ -11,7 +11,7 @@ const scale = [{
   sync: true,
 }];
 
-viser({
+vytser({
   data: sourcedata,
   tooltip: true,
   legend: true,

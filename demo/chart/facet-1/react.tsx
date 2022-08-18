@@ -1,4 +1,4 @@
-import { Chart, Facet, Coord, View, Tooltip, Legend, Axis, Point, FacetView } from '../../../packages/viser-react/src/index';
+import { Chart, Facet, Coord, View, Tooltip, Legend, Axis, Point, FacetView } from '../../../packages/vytser-react/src/index';
 import * as React from 'react';
 import { sourcedata } from './data'
 const DataSet = require('@antv/data-set');

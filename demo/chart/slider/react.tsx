@@ -1,4 +1,4 @@
-import {  Axis, Chart, Guide, Line, Plugin, Slider, Tooltip  } from '../../../packages/viser-react/src/index';
+import {  Axis, Chart, Guide, Line, Plugin, Slider, Tooltip  } from '../../../packages/vytser-react/src/index';
 import * as React from 'react';
 
 const DataSet = require('@antv/data-set');
@@ -126,7 +126,7 @@ export default class App extends React.Component {
             <Plugin>
               <Slider
                 width="auto"
-                container="viser-slider-1"
+                container="vytser-slider-1"
                 height={height}
                 start={start} // 和状态量对应
                 end={end}
